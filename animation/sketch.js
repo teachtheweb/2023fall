@@ -2,6 +2,8 @@ var angle = 0;
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
+  canvas.position(0,0);
+  canvas.style('z-index','-1');
   angleMode(DEGREES);
   rectMode(CENTER);
 }
