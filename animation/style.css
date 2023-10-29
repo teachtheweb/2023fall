@@ -5,3 +5,10 @@ html, body {
 canvas {
   display: block;
 }
+
+p {
+  color:#ffff00;
+  font-family: 'Unna', serif;
+  font-size:52px;
+  text-align:left;
+}
