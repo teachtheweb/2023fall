@@ -22,4 +22,14 @@ function setup() {
     document.querySelector('canvas').style.left = window.scrollX + 'px';
   });
 
+  function checkScreenWidth() {
+    if (window.innerWidth >= 768) {
+      new p5(initializeP5);
+    } else {
+      document.querySelectorAll('canvas').forEach(canvas => canvas.remove());
+    }
+  }
+
+  checkScreenWidth(); // Initial check
+  window.addEventListener('resize', checkScreenWidth); // Check on resize
   
