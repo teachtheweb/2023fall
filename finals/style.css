@@ -50,10 +50,6 @@ a:hover {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-a:visited {
-    font-family:Arial, Helvetica, sans-serif;
-}
-
 canvas {
     display: block;
   }
@@ -63,10 +59,6 @@ canvas {
     .description {
         width:80%;
     }
-}
-
-@media screen and (max-width: 992px) {
-
 }
 
 @media screen and (max-width: 768px) {

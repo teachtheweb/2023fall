@@ -17,13 +17,9 @@ function setup() {
     return false;
   }
 
-  function mouseWheel(event) {
-    event.preventDefault();
-  }
-
   window.addEventListener('scroll', () => {
     document.querySelector('canvas').style.top = window.scrollY + 'px';
     document.querySelector('canvas').style.left = window.scrollX + 'px';
   });
 
-  document.addEventListener('wheel', mouseWheel, { passive: false });
+  
